@@ -8,7 +8,7 @@ Sources Code by: https://raw.githubusercontent.com/discoart/FluentPlus/refs/head
 
 --- MOBILE -----------------
 local Show_Button = true -- Shows the button for toggle fluent ui manually. If "false", works only on mobile, if "true", works everytime.
-local Button_Icon = "rbxassetid://10734897102" -- Icon of the button for toggle fluent ui.
+local Button_Icon = "rbxassetid://127966304880776" -- Icon of the button for toggle fluent ui.
 local Button_Transparency = 1 -- Transparency of button background (check line #6365).
 ----------------------------
 
