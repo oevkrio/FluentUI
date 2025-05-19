@@ -2541,7 +2541,7 @@ Components.Notification = (function()
 
 		NewNotification.Root = New("Frame", {
 			BackgroundTransparency = 1,
-			Size = UDim2.new(0.5, 0, 0.5, 0),
+			Size = UDim2.new(1, 0, 1, 0),
 			Position = UDim2.fromScale(1, 0),
 		}, {
 			NewNotification.AcrylicPaint.Frame,
@@ -6349,7 +6349,7 @@ end
 
 local MinimizeButton = New("TextButton", {
 	BackgroundTransparency = 1,
-	Size = UDim2.new(0.5, 0, 0.5, 0),
+	Size = UDim2.new(1, 0, 1, 0),
 	BorderSizePixel = 0
 }, {
 	New("UIPadding", {
@@ -6360,7 +6360,7 @@ local MinimizeButton = New("TextButton", {
 	}),
 	New("ImageLabel", {
 		Image = Mobile and Button_Icon,
-		Size = UDim2.new(0.5, 0, 0.5, 0),
+		Size = UDim2.new(1, 0, 1, 0),
 		BackgroundTransparency = Button_Transparency,
 	}, {
 		New("UIAspectRatioConstraint", {
@@ -6383,7 +6383,7 @@ if Mobile then
 	{
 		New("Frame", {
 			BackgroundColor3 = Color3.fromRGB(0, 0, 0),
-			Size = UDim2.new(0.5, 0, 0.5, 0),
+			Size = UDim2.new(1, 0, 1, 0),
 			BackgroundTransparency = 0.5,
 			BorderSizePixel = 0
 		}, {
