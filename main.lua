@@ -1,7 +1,8 @@
 --[[             |
-
-Sources Code by: https://raw.githubusercontent.com/discoart/FluentPlus/refs/heads/main/Beta.lua | discoart
-
+'                |   Last changes:     
+FluentPlus 1.2.2 |   06.03 - Fixed some themes and mobile button, added normal bypass to Fisch. (it isn't working)
+dsc.gg/hydrahub  |   31.01 - added Show_Assets toggle. Soon ill make normal bypass.
+'                |   29.01 - well well well removed last update, added "Bloody" theme and fluent-plus settings 😉
 ]]--    
 
 --- FLUENT PLUS SETTINGS ---
