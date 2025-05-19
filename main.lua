@@ -6350,7 +6350,7 @@ end
 
 local MinimizeButton = New("TextButton", {
 	BackgroundTransparency = 1,
-	Size = UDim2.new(1, 0, 1, 0),
+	Size = UDim2.new(0.5, 0, 0.5, 0),
 	BorderSizePixel = 0
 }, {
 	New("UIPadding", {
@@ -6361,7 +6361,7 @@ local MinimizeButton = New("TextButton", {
 	}),
 	New("ImageLabel", {
 		Image = Mobile and Button_Icon,
-		Size = UDim2.new(1, 0, 1, 0),
+		Size = UDim2.new(0.8, 0, 0.8, 0),
 		BackgroundTransparency = Button_Transparency,
 	}, {
 		New("UIAspectRatioConstraint", {
